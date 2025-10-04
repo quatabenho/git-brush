@@ -5,10 +5,10 @@ setup(
     version='0.1.0',
     description='A tool to clean up your git repository',
     author='quatabenho',
-    py_modules=['git-brush'],
+    py_modules=['git_brush'],
     entry_points={
         'console_scripts': [
-            'git-brush=git-brush:main',
+            'git-brush=git_brush:main',
         ],
     },
     python_requires='>=3.6',
